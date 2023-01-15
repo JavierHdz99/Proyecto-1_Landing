@@ -1,0 +1,290 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/**HEADER**/
+
+nav {
+    background-color: #579BB1;
+    padding: 1rem 0;
+}
+
+nav div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li {
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+ul>li:hover {
+    cursor: pointer;
+    color: yellow;
+}
+
+.m1 {
+    width: 100%;
+}
+
+
+/**JUMBOTRON**/
+
+.jumbotron {
+    background-color: #E1D7C6;
+    padding: 1rem 0;
+}
+
+.content {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    padding: 10px;
+    gap: 50px;
+}
+
+.info-content>.tittle {
+    font-size: 50px;
+}
+
+.info-content>.subtitle {
+    font-size: 25px;
+}
+
+input {
+    width: 60%;
+    border-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.phrase {
+    font-size: 15px;
+}
+
+.btn {
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    border: 10px 10px;
+    border-color: black;
+    padding: 10px 25px;
+    transition: all 0.3s ease;
+    border-radius: 100px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #579BB1;
+    color: #fff;
+}
+
+.img-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/**BLOG**/
+
+.blog {
+    background-color: #ECE8DD;
+    padding: 1rem 0;
+}
+
+.text {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.text>.tittle {
+    font-size: 35px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+.text>.subtittle {
+    font-size: 25px;
+    margin-top: 0px;
+}
+
+.chart {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.chart>.boxes {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.chart>.boxes:hover {
+    cursor: pointer;
+    background-color: #579BB1;
+    color: rgb(255, 255, 255);
+}
+
+.boxes>img {
+    border-radius: 10px;
+}
+
+.chart>.boxes {
+    text-align: center;
+}
+
+
+/**ADICIONAL**/
+
+.adicional {
+    background-color: #F8F4EA;
+    padding: 1rem 0;
+}
+
+.contentt {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    align-items: center;
+    padding: 10px;
+    gap: 50px;
+}
+
+.info-contentt>.tit {
+    font-size: 50px;
+    margin: 0px 0px;
+}
+
+.info-content>.sub {
+    font-size: 25px;
+    margin: 0px 0px;
+}
+
+.phr {
+    font-size: 15px;
+}
+
+.img-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnn {
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    border-bottom: 10px 10px;
+    border-color: black;
+    padding: 20px 100px;
+    transition: all 0.3s ease;
+    border-radius: 100px;
+}
+
+.btnn:hover {
+    cursor: pointer;
+    background-color: #579BB1;
+    color: #fff;
+}
+
+
+/**FOOTER**/
+
+.footer {
+    grid-template-columns: repeat(5, 1fr);
+    display: grid;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+    margin-bottom: 50px;
+}
+
+ul {
+    list-style: none;
+    padding: none;
+}
+
+.footer-text {
+    text-align: center;
+    color: #919496;
+}
+
+.footer-text1 {
+    color: #C3C3C3;
+}
+
+.footer-text1:hover {
+    cursor: pointer;
+    color: #579BB1;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width:992px) {
+    .chart {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .img-content {
+        justify-content: left;
+    }
+    .m1 {
+        width: 100%;
+    }
+    .m2 {
+        width: 50%;
+    }
+    /**
+    .card-music {
+        flex-direction: row !important;
+        align-items: center;
+    }
+    .img1 {
+        margin-right: 0;
+    }
+    .proceeds-item-body {
+        text-align: left;
+    }
+    .proceeds-item-body .h4,
+    .proceeds-item-body .p {
+        margin: 0;
+    }
+    **/
+}
+
+
+/*Responsive Movil*/
+
+@media screen and (max-width: 768px) {
+    .m1 {
+        width: 100%;
+    }
+    .m2 {
+        width: 100%;
+    }
+    .menu {
+        display: none;
+    }
+    .btn {
+        margin-top: 10px;
+    }
+}
