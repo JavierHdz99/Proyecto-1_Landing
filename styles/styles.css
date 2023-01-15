@@ -253,22 +253,6 @@ ul {
     .m2 {
         width: 50%;
     }
-    /**
-    .card-music {
-        flex-direction: row !important;
-        align-items: center;
-    }
-    .img1 {
-        margin-right: 0;
-    }
-    .proceeds-item-body {
-        text-align: left;
-    }
-    .proceeds-item-body .h4,
-    .proceeds-item-body .p {
-        margin: 0;
-    }
-    **/
 }
 
 
