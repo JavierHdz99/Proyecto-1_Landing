@@ -245,13 +245,13 @@ ul {
         grid-template-columns: repeat(2, 1fr);
     }
     .img-content {
-        justify-content: left;
+        justify-content: center;
     }
     .m1 {
         width: 100%;
     }
     .m2 {
-        width: 50%;
+        width: 100%;
     }
 }
 
